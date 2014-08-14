@@ -2,9 +2,11 @@ ApomorphyTally
 ==============
 
 ApomorphyTally.pl
+
 Written by Matt Gitzendanner
 
 University of Florida
+
 Department of Biology and Florida Museum of Natural History
 
 This program takes the output from PAUP that descripes the apomorphies along branches of a tree. The user provides this file, along with a file describing the CHARSETs for different genes. The program parses the CHARSET information and uses that to go through the apomorphy file tallying the numbers of apomorphies for each gene at each node.
@@ -34,5 +36,6 @@ example: `$ ./ApomorphyTally.pl infile charfile outfile`
 
 
 History:
-v. 1.0: 23 Sept. 2007
-v. 1.0.1: 24 Sept. 2007
+
+* v. 1.0: 23 Sept. 2007
+* v. 1.0.1: 24 Sept. 2007
